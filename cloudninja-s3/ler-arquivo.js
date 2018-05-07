@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
 app.get('/',function(req,res){
 
     var params = {
-      Bucket: 'cloudninja-jon', 
+      Bucket: 'geekmo-teste', 
       Key: 'arquivo.txt'
     };
     s3.getObject(params, function(err, data) {
