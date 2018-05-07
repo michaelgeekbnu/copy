@@ -26,8 +26,8 @@ app.use(function(req, res, next) {
 // GET
 app.get('/',function(req,res){
 	
-    var dstBucket = 'geekmo-teste2';
-    var dstKey = 'arquivo.txt';
+    var dstBucket = 'geekmo-teste';
+    var dstKey = 'arquivo2.txt';
     var arquivo = 'Parabéns Teste, você completou com sucesso essa tarefa!';
 
     s3.putObject({
